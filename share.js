@@ -21,8 +21,5 @@ function share(data) {
 }
 
 function getURI() {
-  let uri = window.location.pathname;
-  var splits = uri.split("/");
-
-  return splits[splits.length-1];
+  return window.location.search.split("q=")[1];
 }
