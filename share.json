@@ -5,8 +5,20 @@
       "uri": "",
       "links": [
         {
-          "name": "Link de exemplo",
-          "linkTo": "#"
+          "name": "GitHub",
+          "linkTo": "https://github.com/rafaelbmateus"
+        },
+        {
+          "name": "Linkedin",
+          "linkTo": "https://www.linkedin.com/in/rafaelbmateus"
+        },
+        {
+          "name": "Instagram",
+          "linkTo": "https://www.instagram.com/rafaelbmateus"
+        },
+        {
+          "name": "Gospel no Piano",
+          "linkTo": "https://www.youtube.com/@gospelnopiano"
         }
       ]
     },

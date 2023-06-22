@@ -21,5 +21,9 @@ function share(data) {
 }
 
 function getURI() {
+  if (window.location.search.split("q=").length == 1){
+    return ""
+  }
+
   return window.location.search.split("q=")[1];
 }
