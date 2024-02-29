@@ -1,0 +1,66 @@
+{
+  "pages": [
+    {
+      "name": "Principal",
+      "uri": "",
+      "links": [
+        {
+          "name": "GitHub",
+          "linkTo": "https://github.com/rafaelbmateus"
+        },
+        {
+          "name": "Linkedin",
+          "linkTo": "https://www.linkedin.com/in/rafaelbmateus"
+        },
+        {
+          "name": "Instagram",
+          "linkTo": "https://www.instagram.com/rafaelbmateus"
+        },
+        {
+          "name": "Gospel no Piano",
+          "linkTo": "https://www.youtube.com/@gospelnopiano"
+        }
+      ]
+    },
+    {
+      "name": "Te amo mãe, pega os links!",
+      "uri": "mae",
+      "links": [
+        {
+          "name": "Como apagar fotos do whatsapp",
+          "linkTo": "https://faq.whatsapp.com/5503646096388294"
+        },
+        {
+          "name": "Nossa pasta do Google Fotos",
+          "linkTo": "https://photos.google.com"
+        },
+        {
+          "name": "Músicas de Natal",
+          "linkTo": "https://drive.google.com/drive/folders/1vrwC1cyRw5bwWRV8JC6OaizLHmr7tk0E?usp=sharing"
+        },
+        {
+          "name": "Site para pegar a segunda via do boleto",
+          "linkTo": "https://agenciaweb.celesc.com.br/AgenciaWeb/autenticar/loginCliente.do"
+        }
+      ]
+    },
+    {
+      "name": "Links da rapaziada do futebol!",
+      "uri": "futebol-4feira",
+      "links": [
+        {
+          "name": "Grupo do whatsapp",
+          "linkTo": "https://web.whatsapp.com"
+        },
+        {
+          "name": "Site para fazer vaquinha",
+          "linkTo": "https://www.vakinha.com.br"
+        },
+        {
+          "name": "Playlist Spotify",
+          "linkTo": "https://open.spotify.com"
+        }
+      ]
+    }
+  ]
+}

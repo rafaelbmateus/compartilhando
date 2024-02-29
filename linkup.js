@@ -1,18 +1,18 @@
-fetch("https://raw.githubusercontent.com/rafaelbmateus/share/main/share.json")
+fetch("https://raw.githubusercontent.com/rafaelbmateus/linkup/main/linkup.json")
   .then((res) => {
   return res.json();
 })
-.then((data) => share(data));
+.then((data) => linkup(data));
 
-function share(data) {
-  let uri = getURI()
+function linkup(data) {
+  let id = getLinkupId()
 
-  for (var share of data.pages) {
-    if (share.uri == uri) {
-      document.getElementById("shared-with").innerHTML = share.name;
+  for (var linkup of data.pages) {
+    if (linkup.id == id) {
+      document.getElementById("shared-with").innerHTML = linkup.name;
 
       let links = "";
-      for (var link of share.links) {
+      for (var link of linkup.links) {
         links += `<div class="p-2"><a target="_blank" href="` + link.linkTo + `" class="btn btn-dark">` + link.name + `</a></div>`
         document.getElementById("links").innerHTML = links;
       }
@@ -20,7 +20,7 @@ function share(data) {
   }
 }
 
-function getURI() {
+function getLinkupId() {
   if (window.location.search.split("q=").length == 1){
     return ""
   }
